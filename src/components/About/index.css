@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.about {
+  width: 150px;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 30px;
+  color: #6d396b;
+}
+@media (min-width: 568px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+.about-paragraph {
+  color: #555555;
+  font-size: 20px;
+}

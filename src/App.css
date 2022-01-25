@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write your CSS code here */
+.container {
+  border-color: #12022f;
+  border: 2px solid;
+  border-radius: 8px;
+  max-height: 100vh;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}

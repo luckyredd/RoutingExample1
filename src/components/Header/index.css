@@ -1,0 +1,51 @@
+/* Write your CSS code here */
+.nav-container {
+  display: flex;
+  margin-right: 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+}
+@media (max-width: 575px) {
+  .nav-container {
+    padding: 15px;
+  }
+}
+.left-container {
+  display: flex;
+  text-align: center;
+}
+.image {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.heading {
+  font-size: 25px;
+  color: #12022f;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.right-heading {
+  font-size: 30px;
+  color: #551e53;
+  font-weight: 500;
+}
+.nav-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+.list {
+  padding-left: 0px;
+  display: flex;
+}
+.link-items {
+  list-style-type: none;
+}
